@@ -13,7 +13,7 @@ export const BackToHome = createContext();
 
 function App() {
   const [active, setActive] = useState("FirstView");
-  
+  const TITLE = "Amanda Mallardo - Sr. Product Designer"
   return (
     <div className="App">
       <NavBar />
