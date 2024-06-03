@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9b46eb2c.css",
-    "main.js": "/static/js/main.0d8c7bc2.js",
+    "main.js": "/static/js/main.7c2d8aa0.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/Jarvish-2.png": "/static/media/Jarvish-2.1ec0beb8f1c4194a1557.png",
     "static/media/Nike2.png": "/static/media/Nike2.c9d62f5fbde00a7eb0f3.png",
@@ -32,11 +32,11 @@
     "static/media/logo.svg": "/static/media/logo.cbbe83af99b18ed36c1e2cc3e7d3e1a7.svg",
     "index.html": "/index.html",
     "main.9b46eb2c.css.map": "/static/css/main.9b46eb2c.css.map",
-    "main.0d8c7bc2.js.map": "/static/js/main.0d8c7bc2.js.map",
+    "main.7c2d8aa0.js.map": "/static/js/main.7c2d8aa0.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b46eb2c.css",
-    "static/js/main.0d8c7bc2.js"
+    "static/js/main.7c2d8aa0.js"
   ]
 }
