@@ -6,6 +6,7 @@ import { HomeContent } from './pages/HomeContent';
 import {NavBar} from './components/NavBar';
 import {Nav, Container, Row, Col, NavItem, NavLink, Dropdown} from "react-bootstrap";
 import Data from "./Data";
+import Resume from "./docs/AmandaMallardo-2023.pdf";
 
 export const Context = createContext();
 export const BackToHome = createContext();
@@ -16,14 +17,12 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Container>
-      <Row>
-      <Col xs="1" lg="2">
+  
       <div className='subNav'>
       <Dropdown as={NavItem}>
         <Dropdown.Toggle as={NavLink}>Showcase</Dropdown.Toggle>
           <Dropdown.Menu>
-            <Dropdown.Item onClick={() => setActive("SecondView")} eventKey="link-1" className="navbar-link">AlinIQ Lab Insight</Dropdown.Item>
+            <Dropdown.Item onClick={() => setActive("SecondView")} eventKey="link-1" className="navbar-link">AlinIQ Laboratory Insights</Dropdown.Item>
             <Dropdown.Item onClick={() => setActive("ThirdView")} eventKey="link-1" className="navbar-link">HERE Traffic Viewer</Dropdown.Item>
             <Dropdown.Item onClick={() => setActive("FourthView")} eventKey="link-1" className="navbar-link">Jarvish Smart Helmet</Dropdown.Item>
             <Dropdown.Item onClick={() => setActive("FifthView")} eventKey="link-1" className="navbar-link">HERE Venues</Dropdown.Item>
@@ -32,6 +31,8 @@ function App() {
             <Dropdown.Item onClick={() => setActive("EighthView")} eventKey="link-1" className="navbar-link">TV Microsites</Dropdown.Item>
           </Dropdown.Menu>
       </Dropdown>
+      <Nav.Link href={Resume} className="navbar-link">Resume</Nav.Link>
+      </div>
 
       {/* <Nav defaultActiveKey="/home" className="flex-column side-menu" >
         <h5>Showcase</h5>
@@ -45,12 +46,9 @@ function App() {
         <h5>About Me</h5>
         <h5>Resume</h5>
       </Nav> */}
-      </div>
-      </Col>
-      
-      <Col xs lg="10">
+
       <Context.Provider value={[active, setActive]}>
-      <div>
+      <div className="content">
         {active === "FirstView" && <HomeContent />}
         {active === "SecondView" && <View data={Data} viewIndex={1} />}
         {active === "ThirdView" && <View data={Data} viewIndex={2} />}
@@ -61,8 +59,7 @@ function App() {
         {active === "EighthView" && <View data={Data} viewIndex={7} />}
       </div>
       </Context.Provider>
-      </Col></Row>
-      </Container>
+
     </div>
   );
 }
