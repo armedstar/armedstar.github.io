@@ -96,9 +96,9 @@ export default [
             role: "UX Designer / Prototyper",
             description: "The R&D design team at Rovi was responsible for coming up with next generation product concepts for the business to bring to customers for productization. Voice navigation was just starting to gain traction on smart televisions. We explored ways to utilize this new technology within a cable browsing application",
             imageUrl2: RoviImg2,
-            process: "The design prototyping team reserached technical ways to incorporate this technology into our products. We found a 3rd party service that provided a basic voice control API. Due to the limitations, as the UX designer, I was responsible for research and finding the most natural language and interaction for use in a television browsing scenario. I created wireframes for screens and prompts, and worked with visual designers to define the look and feel.",
+            process: "The design prototyping team reserached technical ways to incorporate this technology into our products. We found a 3rd party service that provided a basic voice control API. ",
             imageUrl3: RoviImg3,
-            designdef: "Working with a visual designer from the newly formed LUI Design system, I was able to utilize components that were available across the platform of HERE products. When there was a component neeed, wireframes were created and a request was made to the design system team for a library addition",
+            designdef: "Due to the limitations, as the UX designer, I was responsible for research and finding the most natural language and interaction for use in a television browsing scenario. I created wireframes for screens and prompts, and worked with visual designers to define the look and feel.",
             results: "HERE Venues was released as one of the first Platform product offerings.",
         }
     ],
