@@ -99,7 +99,7 @@ export default [
             process: "The design prototyping team reserached technical ways to incorporate this technology into our products. We found a 3rd party service that provided a basic voice control API. ",
             imageUrl3: RoviImg3,
             designdef: "Due to the limitations, as the UX designer, I was responsible for research and finding the most natural language and interaction for use in a television browsing scenario. I created wireframes for screens and prompts, and worked with visual designers to define the look and feel.",
-            results: "HERE Venues was released as one of the first Platform product offerings.",
+            results: "Patents were submitted based off of our research findings and the television and tablet application prototypes were featured at the annual CES trade show.",
         }
     ],
     [
