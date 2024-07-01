@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2e50fec9.css",
-    "main.js": "/static/js/main.be392398.js",
+    "main.js": "/static/js/main.e359219b.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/Jarvish-2.png": "/static/media/Jarvish-2.1ec0beb8f1c4194a1557.png",
     "static/media/Nike2.png": "/static/media/Nike2.c9d62f5fbde00a7eb0f3.png",
@@ -12,8 +12,8 @@
     "static/media/Rovi-main.png": "/static/media/Rovi-main.c978ccaa00add1ffcb8d.png",
     "static/media/HERE-2.png": "/static/media/HERE-2.e2743775f57b91f2823e.png",
     "static/media/HERE-8.png": "/static/media/HERE-8.6e4bb1e0a398e8a4940b.png",
+    "static/media/AmandaMallardo-2023.pdf": "/static/media/AmandaMallardo-2023.0cb698c59c8c3d1c5c2b.pdf",
     "static/media/Rovi-4.png": "/static/media/Rovi-4.74d52d4c0eace41b7f45.png",
-    "static/media/AmandaMallardo-2023.pdf": "/static/media/AmandaMallardo-2023.d809bbd6cba50d87a6ab.pdf",
     "static/media/HERE-5.png": "/static/media/HERE-5.cc27779e27c8e781dad4.png",
     "static/media/Showtime03.png": "/static/media/Showtime03.978a3976d30a089ea91a.png",
     "static/media/Showtime02.png": "/static/media/Showtime02.c218378e8c84d3560ce4.png",
@@ -32,11 +32,11 @@
     "static/media/logo.svg": "/static/media/logo.cbbe83af99b18ed36c1e2cc3e7d3e1a7.svg",
     "index.html": "/index.html",
     "main.2e50fec9.css.map": "/static/css/main.2e50fec9.css.map",
-    "main.be392398.js.map": "/static/js/main.be392398.js.map",
+    "main.e359219b.js.map": "/static/js/main.e359219b.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e50fec9.css",
-    "static/js/main.be392398.js"
+    "static/js/main.e359219b.js"
   ]
 }
