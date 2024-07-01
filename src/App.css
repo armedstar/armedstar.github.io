@@ -20,6 +20,10 @@
       display:inline;
     }
 
+    .title{
+      font-size:80%;
+    }
+
     p{
       margin:0;
       padding:0;

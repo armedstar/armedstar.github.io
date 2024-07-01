@@ -20,7 +20,7 @@ function App() {
   
       <div className='subNav'>
       <Dropdown as={NavItem}>
-        <Dropdown.Toggle as={NavLink}>Showcase</Dropdown.Toggle>
+        <Dropdown.Toggle as={NavLink}>All Projects</Dropdown.Toggle>
           <Dropdown.Menu>
             <Dropdown.Item onClick={() => setActive("SecondView")} eventKey="link-1" className="navbar-link">AlinIQ Laboratory Insights</Dropdown.Item>
             <Dropdown.Item onClick={() => setActive("ThirdView")} eventKey="link-1" className="navbar-link">HERE Traffic Viewer</Dropdown.Item>
