@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f21d103a.css",
-    "main.js": "/static/js/main.7be1c2ad.js",
+    "main.css": "/static/css/main.2e50fec9.css",
+    "main.js": "/static/js/main.be392398.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/Jarvish-2.png": "/static/media/Jarvish-2.1ec0beb8f1c4194a1557.png",
     "static/media/Nike2.png": "/static/media/Nike2.c9d62f5fbde00a7eb0f3.png",
@@ -31,12 +31,12 @@
     "static/media/Abbott-3.png": "/static/media/Abbott-3.df701d15cdbf6a2027e3.png",
     "static/media/logo.svg": "/static/media/logo.cbbe83af99b18ed36c1e2cc3e7d3e1a7.svg",
     "index.html": "/index.html",
-    "main.f21d103a.css.map": "/static/css/main.f21d103a.css.map",
-    "main.7be1c2ad.js.map": "/static/js/main.7be1c2ad.js.map",
+    "main.2e50fec9.css.map": "/static/css/main.2e50fec9.css.map",
+    "main.be392398.js.map": "/static/js/main.be392398.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f21d103a.css",
-    "static/js/main.7be1c2ad.js"
+    "static/css/main.2e50fec9.css",
+    "static/js/main.be392398.js"
   ]
 }
