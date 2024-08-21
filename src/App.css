@@ -12,17 +12,24 @@
 
   .header {
      margin: 0 2em;
+     width: 100%;
     
     .logo{
-      width: 20px;
-      height: 20px;
-      margin:10px 20px 10px 0;
-      display:inline;
+      float:left;
+      margin:10px 50px 10px 10px;
+      width:20%;
     }
 
-    .title{
-      font-size:80%;
+    .title-desc{
+      padding:30px 0;
+      width:50%;
+
+      p{
+        word-wrap: break-word;
+      }
+      
     }
+
 
     p{
       margin:0;
@@ -123,11 +130,14 @@
     padding: 10px 0;
 
     button{
-      border:0;
-      background-color:black;
-      padding: 10px 20px;
-      color:#ffffff;
+      border: 2px solid #000000;
+      background-color:white;
+      padding: 5px 10px;
+      color:black;
       border-radius: 3px;
+      clear:both;
+      float:left;
+      margin: 5px;
     }
 
     div{
