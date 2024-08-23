@@ -1,11 +1,14 @@
 import React from 'react';
 import Image from 'react-bootstrap/Image';
 
+window.scrollTo(0, 0);
+
 const View = ({data, viewIndex }) => {
     return(
         <div>
         {data[viewIndex].map(item => (
             <div className="view">
+                <button onClick={() => window.location.reload(true)}>Back</button>
                 {/* Project 1 */}
                 <div className="project">
                     {/* Org Header */}
@@ -16,7 +19,7 @@ const View = ({data, viewIndex }) => {
                     <Image src={item.imageUrl1} rounded />
                     {/* Role and Description */}
                     <p><h6>Role: </h6>{item.role}</p>
-                    <p><h6>Description:</h6> {item.description}</p>
+                    <p><h6>Description:</h6> {item.description}</p>ß
                     {/* Process description */}
                      {/* Supporting images */}
                     <Image src={item.imageUrl2} rounded />

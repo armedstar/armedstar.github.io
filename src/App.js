@@ -26,26 +26,13 @@ function App() {
             <Dropdown.Item onClick={() => setActive("ThirdView")} eventKey="link-1" className="navbar-link">HERE Traffic Viewer</Dropdown.Item>
             <Dropdown.Item onClick={() => setActive("FourthView")} eventKey="link-1" className="navbar-link">Jarvish Smart Helmet</Dropdown.Item>
             <Dropdown.Item onClick={() => setActive("FifthView")} eventKey="link-1" className="navbar-link">HERE Venues</Dropdown.Item>
-            <Dropdown.Item onClick={() => setActive("SixthView")} eventKey="link-1" className="navbar-link">Voice Cable Guidance</Dropdown.Item>
+            <Dropdown.Item onClick={() => setActive("SixthView")} eventKey="link-1" className="navbar-link" >Voice Cable Guidance</Dropdown.Item>
             <Dropdown.Item onClick={() => setActive("SeventhView")} eventKey="link-1" className="navbar-link">Personalized Recommendations</Dropdown.Item>
             <Dropdown.Item onClick={() => setActive("EighthView")} eventKey="link-1" className="navbar-link">TV Microsites</Dropdown.Item>
           </Dropdown.Menu>
       </Dropdown>
       <Nav.Link href={Resume} className="navbar-link">Resume</Nav.Link>
       </div>
-
-      {/* <Nav defaultActiveKey="/home" className="flex-column side-menu" >
-        <h5>Showcase</h5>
-        <Nav.Link onClick={() => setActive("SecondView")} eventKey="link-1" className="navbar-link">AlinIQ Lab Insights</Nav.Link>
-        <Nav.Link onClick={() => setActive("ThirdView")} eventKey="link-1" className="navbar-link">HERE Traffic Viewer</Nav.Link>
-        <Nav.Link onClick={() => setActive("FourthView")} eventKey="link-1" className="navbar-link">Jarvish Smart Helmet</Nav.Link>
-        <Nav.Link onClick={() => setActive("FifthView")} eventKey="link-1" className="navbar-link">HERE Venues</Nav.Link>
-        <Nav.Link onClick={() => setActive("SixthView")} eventKey="link-1" className="navbar-link">Voice Cable Guide</Nav.Link>
-        <Nav.Link onClick={() => setActive("SeventhView")} eventKey="link-1" className="navbar-link">Personalized Recommendations</Nav.Link>
-        <Nav.Link onClick={() => setActive("EighthView")} eventKey="link-1" className="navbar-link">TV Microsites</Nav.Link>
-        <h5>About Me</h5>
-        <h5>Resume</h5>
-      </Nav> */}
 
       <Context.Provider value={[active, setActive]}>
       <div className="content">
